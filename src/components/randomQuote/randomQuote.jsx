@@ -9,7 +9,7 @@ const RandomQuote = () => {
     let quotes = [];
 
      async function loadQuotes(){
-        const response =await fetch('https://types.fit/api/quotes');
+        const response =await fetch('https://type.fit/api/quotes');
         quotes = await response.json();
      }
 
